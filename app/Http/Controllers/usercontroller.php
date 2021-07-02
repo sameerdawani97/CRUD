@@ -11,7 +11,7 @@ class usercontroller extends Controller
         //return "hello controller";
         return $id;
     }    //
-
+    /* functio use to load view for some reason*/
     function viewload($name)
     {
         return view("hello",['name'=>$name]);
